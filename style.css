@@ -1,0 +1,117 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #0f0f0f, #1a1a1a);
+  color: #fff;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  background: linear-gradient(180deg, #888, #444);
+  text-align: center;
+  padding: 25px 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.banner-title {
+  font-size: 2.2em;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.banner-subtitle {
+  font-size: 1.1em;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+.header h1 {
+  font-size: 4em;
+  font-weight: 800;
+  color: #ccc;
+  margin: 40px 0 0 0;
+  text-shadow: 4px 4px 10px rgba(0,0,0,0.8);
+}
+
+.header h2 {
+  font-size: 2.5em;
+  margin: -10px 0 20px 0;
+  color: #aaa;
+}
+
+/* Divider */
+.divider {
+  width: 60%;
+  height: 2px;
+  background: #555;
+  border: none;
+  margin: 25px auto;
+}
+
+/* Text */
+.text-section p {
+  font-size: 1.4em;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Countdown */
+.countdown-section {
+  margin-top: 40px;
+}
+
+.countdown-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.countdown-item {
+  width: 220px;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #222, #111);
+  box-shadow: 
+    8px 8px 20px rgba(0,0,0,0.8),
+    -4px -4px 10px rgba(255,255,255,0.05);
+}
+
+.countdown-item span {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.8em;
+  font-weight: 700;
+  text-shadow: 
+    2px 2px 0px #000,
+    4px 4px 8px rgba(0,0,0,0.9);
+}
+
+.label {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #bbb;
+  letter-spacing: 2px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+  font-size: 0.8em;
+  color: #777;
+}
